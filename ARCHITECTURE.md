@@ -43,21 +43,23 @@ C4Context
   Person(registeredUser, "Registered User", "Creates account and accesses personalized features")
   Person(adminUser, "System Administrator", "Manages system configuration and user accounts")
   
-  System(cia, "Citizen Intelligence Agency", "Provides analysis and visualization of Swedish political activities")
+  System(cia, "Citizen Intelligence Agency", "Provides analysis and visualization of US political activities")
   
-  System_Ext(riksdagenAPI, "Swedish Parliament API", "Source of parliamentary data including members, votes, and documents")
-  System_Ext(electionAuthority, "Swedish Election Authority", "Provides election data and political party information")
+  System_Ext(congressAPI, "Congress.gov API", "Source of congressional data including members, votes, bills, and committees")
+  System_Ext(propublicaAPI, "ProPublica Congress API", "Additional legislative activity and voting data")
+  System_Ext(fecAPI, "Federal Election Commission", "Provides election data, campaign finance, and political party information")
   System_Ext(worldBankAPI, "World Bank Open Data", "Source of global economic indicators")
-  System_Ext(governmentBodies, "Swedish Government Bodies", "Financial and headcount data for government agencies")
+  System_Ext(treasuryAPI, "US Treasury", "Federal financial data and economic indicators")
   
   Rel(anonymousUser, cia, "Views political data and metrics")
   Rel(registeredUser, cia, "Creates account, customizes views, and receives updates")
   Rel(adminUser, cia, "Configures system and manages user accounts")
   
-  Rel(cia, riksdagenAPI, "Retrieves parliamentary data from")
-  Rel(cia, electionAuthority, "Retrieves election data from")
+  Rel(cia, congressAPI, "Retrieves congressional data from")
+  Rel(cia, propublicaAPI, "Retrieves legislative activity from")
+  Rel(cia, fecAPI, "Retrieves election and campaign finance data from")
   Rel(cia, worldBankAPI, "Retrieves economic indicators from")
-  Rel(cia, governmentBodies, "Retrieves government body data from")
+  Rel(cia, treasuryAPI, "Retrieves federal financial data from")
   
   UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
   
@@ -66,10 +68,11 @@ C4Context
   UpdateElementStyle(adminUser, $fontColor="#333333", $bgColor="#bbdefb", $borderColor="#86b5d9")
   
   UpdateElementStyle(cia, $fontColor="#333333", $bgColor="#a0c8e0", $borderColor="#86b5d9")
-  UpdateElementStyle(riksdagenAPI, $fontColor="#333333", $bgColor="#d1c4e9", $borderColor="#9575cd")
-  UpdateElementStyle(electionAuthority, $fontColor="#333333", $bgColor="#d1c4e9", $borderColor="#9575cd")
+  UpdateElementStyle(congressAPI, $fontColor="#333333", $bgColor="#d1c4e9", $borderColor="#9575cd")
+  UpdateElementStyle(propublicaAPI, $fontColor="#333333", $bgColor="#d1c4e9", $borderColor="#9575cd")
+  UpdateElementStyle(fecAPI, $fontColor="#333333", $bgColor="#d1c4e9", $borderColor="#9575cd")
   UpdateElementStyle(worldBankAPI, $fontColor="#333333", $bgColor="#d1c4e9", $borderColor="#9575cd")
-  UpdateElementStyle(governmentBodies, $fontColor="#333333", $bgColor="#d1c4e9", $borderColor="#9575cd")
+  UpdateElementStyle(treasuryAPI, $fontColor="#333333", $bgColor="#d1c4e9", $borderColor="#9575cd")
 ```
 
 ## 🏛️ C4 Container Diagram

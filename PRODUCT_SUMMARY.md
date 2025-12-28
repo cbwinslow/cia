@@ -24,7 +24,7 @@ Based on comprehensive analysis of CIA platform documentation:
 
 #### From DATA_ANALYSIS_INTOP_OSINT.md
 - **5 Analytical Frameworks**: Temporal, Comparative, Pattern Recognition, Predictive, Network Analysis
-- **4 OSINT Data Sources**: Riksdagen API, Valmyndigheten, World Bank, ESV Financial Authority
+- **4 OSINT Data Sources**: Congress.gov API, ProPublica Congress API, FEC, US Treasury
 - **Intelligence Products**: Political scorecards, Coalition analysis, Risk assessments, Trend reports
 - **Data Granularity**: Daily, Monthly, Annual, Cross-Temporal analysis
 

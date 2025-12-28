@@ -1,6 +1,6 @@
 # 📊 Citizen Intelligence Agency Data Model
 
-This document provides a comprehensive view of the data model that powers the Citizen Intelligence Agency platform. It outlines the key data structures, relationships, and organization that enable parliamentary monitoring, political analysis, and transparency.
+This document provides a comprehensive view of the data model that powers the Citizen Intelligence Agency platform. It outlines the key data structures, relationships, and organization that enable US Congressional monitoring, political analysis, and transparency.
 
 ## 📚 Related Architecture Documentation
 
