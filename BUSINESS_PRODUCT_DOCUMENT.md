@@ -17,19 +17,19 @@ The Citizen Intelligence Agency (CIA) platform has developed comprehensive intel
 - **🎯 50 Behavioral Risk Rules**: Systematic monitoring across politicians, parties, committees, and ministries
 - **📊 5 Analytical Frameworks**: Temporal, comparative, pattern recognition, predictive, and network analysis
 - **🔒 Enterprise-Grade Security**: STRIDE threat modeling, MITRE ATT&CK framework integration
-- **🌐 Open Data Foundation**: Built on authoritative Swedish government sources
+- **🌐 Open Data Foundation**: Built on authoritative US government sources
 - **⚖️ Non-Partisan Approach**: Objective, unbiased political intelligence
 
 ### Market Opportunity
 
 | Market Segment | Annual Market Size | CIA Addressable | Growth Rate |
 |----------------|-------------------|-----------------|-------------|
-| **Political Consulting** | €450M (Nordic) | €15M | 12% CAGR |
-| **Media & Journalism** | €2.8B (Nordic) | €8M | 8% CAGR |
-| **Academic Research** | €180M (Nordic Political Science) | €5M | 10% CAGR |
-| **Corporate Affairs** | €620M (Nordic) | €12M | 15% CAGR |
-| **Government Transparency** | €90M (Nordic) | €6M | 18% CAGR |
-| **Total Addressable Market** | **€4.14B** | **€46M** | **12.6% CAGR** |
+| **Political Consulting** | $850M (US) | $30M | 12% CAGR |
+| **Media & Journalism** | $5.2B (US) | $15M | 8% CAGR |
+| **Academic Research** | $340M (US Political Science) | $10M | 10% CAGR |
+| **Corporate Affairs** | $1.2B (US) | $25M | 15% CAGR |
+| **Government Transparency** | $180M (US) | $12M | 18% CAGR |
+| **Total Addressable Market** | **$7.77B** | **$92M** | **12.6% CAGR** |
 
 ---
 
