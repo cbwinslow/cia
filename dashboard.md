@@ -1,71 +1,49 @@
-# Citizen Intelligence Agency - Sweden Political Activity Dashboard
+# Citizen Intelligence Agency - US Political Activity Dashboard
 
-The Citizen Intelligence Agency provides a neutral and comprehensive dashboard focusing on political activity in Sweden. By monitoring key political figures and institutions, the platform offers valuable insights into financial performance, risk metrics, and political trends. This project is powered by advanced AI technologies like OpenAI and data visualization tools like Daigram.
+The Citizen Intelligence Agency provides a neutral and comprehensive dashboard focusing on political activity in the United States. By monitoring key political figures and institutions, the platform offers valuable insights into financial performance, risk metrics, and political trends. This project is powered by advanced AI technologies and data visualization tools.
 
 ## Key Features
 
-- **Political Figures Overview**: Detailed profiles of key political figures, including their roles, tenure, and political experience. 
-- **Ministry Overview**: Comprehensive data on various ministries, including the number of government bodies, total headcount, and financial performance. 
-- **Performance Metrics**: Objective comparison of politicians based on performance metrics. 
+- **Political Figures Overview**: Detailed profiles of key political figures in Congress, Senate, and House of Representatives, including their roles, tenure, and political experience. 
+- **Department Overview**: Comprehensive data on federal departments and agencies, including organizational structure, staffing levels, and financial performance. 
+- **Performance Metrics**: Objective comparison of legislators based on performance metrics including voting records, bill sponsorship, and committee participation. 
 - **Visual Data Representation**: Data is represented visually through charts and graphs for easy understanding. 
 
 ## Charts
 
-### Swedish Government Members' Performance
+### US Congressional Leadership Performance
 
-The stacked bar chart provides a comparative view of the performance of each minister in the Swedish government. The metrics used for comparison include the number of days in position, government experience, party experience, parliament experience, income, and spending.
+The stacked bar chart provides a comparative view of the performance of congressional leaders. The metrics used for comparison include tenure in office, legislative experience, committee leadership positions, and voting participation rates.
 
-![Swedish Government Members' Performance](https://daigr.am/1e59ff22.svg)
+_Note: Chart visualizations will be updated to reflect US Congressional data once data integration is complete._
 
-For instance, you can observe that Ulf Kristersson (M), the Prime Minister, has the highest combined experience in government, party, and parliament. On the other hand, ministers like Romina Pourmokhtari (L), Peter Kullgren (KD), and Andreas Carlson (KD) have held their positions for fewer days and have less experience in government, party, and parliament.
+For instance, you can observe comparative metrics across Senate Majority/Minority Leaders, Speaker of the House, and key committee chairs. The chart provides insights into legislative productivity, experience levels, and leadership tenure.
 
-The chart also provides insights into the financial aspects of each department, showing the income and spending for each minister's department. This can be useful for understanding the financial management and budget allocation within the Swedish government.
+### Federal Department Overview
 
-### Swedish Government Departments Overview
+The stacked bar chart provides a comparative view of federal departments and agencies. The metrics used for comparison include number of agencies, total staffing levels, budget allocation, and spending.
 
-The stacked bar chart provides a comparative view of the performance of each department in the Swedish government. The metrics used for comparison include the number of government bodies, total headcount, income, and spending.
+_Note: Chart visualizations will be updated to reflect US federal department data once data integration is complete._
 
-![Swedish Government Departments Overview](https://daigr.am/12a372b0.svg)
+For instance, you can observe that departments like Defense and Health & Human Services have the largest budgets and staffing levels, while smaller agencies like the EPA have more focused mandates and resources.
 
-For instance, you can observe that the Utbildningsdepartementet has the highest total headcount and income, while the Socialdepartementet has the highest spending. On the other hand, departments like the Kulturdepartementet and Statsrådsberedningen have fewer government bodies and a lower total headcount.
+The chart also provides insights into the financial aspects of each department, showing budget allocation and spending patterns. This can be useful for understanding fiscal management within the US federal government.
 
-The chart also provides insights into the financial aspects of each department, showing the income and spending for each department. This can be useful for understanding the financial management and budget allocation within the Swedish government.
-
-Please note that the data is based on the information provided and may not reflect the most current state of affairs.
-
-For an interactive view of the chart, please visit the [link](https://daigr.am/12a372b0.svg).
-
-
-### Headcount per Ministry
-
-![Headcount per Ministry](https://daigr.am/c6e79c14.svg)
-
-This pie chart displays the total headcount in each ministry. The Utbildningsdepartementet (Education Department) has the highest headcount, followed by the Justitiedepartementet (Justice Department) and the Försvarsdepartementet (Defense Department).
-
-### Number of Government Bodies per Ministry
-
-![Number of Government Bodies per Ministry](https://daigr.am/3531a579.svg)
-
-This bar chart displays the number of government bodies under each ministry. The Utbildningsdepartementet (Education Department) has the most government bodies, followed by the Finansdepartementet (Finance Department) and the Socialdepartementet (Social Department).
-
-### Spending (B SEK) per Ministry
-
-![Spending (B SEK) per Ministry](https://daigr.am/9fd2c66c.svg)
-
-This bar chart displays the spending in billion SEK for each ministry. The Finansdepartementet (Finance Department) has the highest spending, followed by the Socialdepartementet (Social Department) and the Utbildningsdepartementet (Education Department).
+_Note: The following visualizations are placeholders and will be replaced with US federal data once integration is complete._
 
 ## Data Sources
 
-The project relies on open data from various sources such as:
+This dashboard integrates data from authoritative US government sources:
 
-- [Swedish Parliament Open Data](https://data.riksdagen.se/)
-- [Swedish Election Authority](https://www.val.se/)
-- [World Bank Open Data](https://data.worldbank.org/)
-- [Swedish National Financial Management Authority (ESV) Public Sector Information (PSI) Data](https://www.esv.se/)
+- **Congress.gov API**: Congressional member profiles, voting records, bill tracking
+- **ProPublica Congress API**: Legislative activity, member statistics, and voting analysis
+- **Federal Election Commission (FEC)**: Campaign finance data and election results
+- **USAspending.gov API**: Federal spending data, agency budgets, and contract awards
+- **World Bank Open Data**: Economic indicators and international comparisons
 
 ## Tools Used
 
-This project utilizes advanced AI technologies like [OpenAI](https://www.openai.com/) for data processing and analysis, and [Daigram](https://www.daigram.com/) for data visualization.
+This project utilizes advanced data processing, analysis, and visualization technologies.
 
 ## Contribute
 

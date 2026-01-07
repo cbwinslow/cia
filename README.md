@@ -1,9 +1,9 @@
 # 🔍 Citizen Intelligence Agency
 
-> An independent, volunteer-driven OSINT platform monitoring Swedish political activity
+> An independent, volunteer-driven OSINT platform monitoring US political activity
 
 ## 🎯 Mission
-The Citizen Intelligence Agency is a volunteer-driven, open-source intelligence (OSINT) project that provides comprehensive analysis of political activities in Sweden. Through advanced monitoring of key political figures and institutions, we deliver:
+The Citizen Intelligence Agency is a volunteer-driven, open-source intelligence (OSINT) project that provides comprehensive analysis of political activities in the United States. Through advanced monitoring of key political figures and institutions, we deliver:
 
 - 📊 Financial performance metrics
 - ⚠️ Risk assessment analytics
@@ -205,14 +205,15 @@ Our commitment to security transparency is demonstrated through publicly verifia
 
 ## 📚 Data Sources
 
-Our analysis is powered by authoritative Swedish government and international data sources:
+Our analysis is powered by authoritative US government and international data sources:
 
 | Source | Description |
 |--------|-------------|
-| 🏛️ [Swedish Parliament Open Data](http://data.riksdagen.se/) | Parliamentary members, committees, and official documents |
-| 🗳️ [Swedish Election Authority](http://www.val.se/) | Election data, political parties, and voting results |
+| 🏛️ [Congress.gov API](https://www.congress.gov/) | Congressional members, committees, bills, and voting records |
+| 🏛️ [ProPublica Congress API](https://www.propublica.org/datastore/api/propublica-congress-api) | Legislative activity, votes, and member data |
+| 🗳️ [Federal Election Commission (FEC)](https://www.fec.gov/data/) | Campaign finance, election results, and political parties |
 | 🌍 [World Bank Open Data](http://data.worldbank.org/) | Global economic indicators and demographic data |
-| 💹 [Swedish Financial Management Authority](https://www.esv.se/) | Government finances and economic trends |
+| 💹 [US Treasury](https://www.treasury.gov/) | Federal finances and economic data |
 
 ## 🏆 Project Status
 
@@ -773,9 +774,7 @@ postgres=# GRANT ALL PRIVILEGES ON DATABASE cia_dev to eris;
 
 ## 📊 Political Dashboards
 
-- **English**: Our [dashboard](https://github.com/Hack23/cia/blob/master/dashboard.md) provides comprehensive analytics on Swedish political figures and institutions.
-
-- **Swedish**: Vår [dashboard](https://github.com/Hack23/cia/blob/master/dashboard_sv.md) erbjuder en detaljerad översikt över politiska figurer och olika departement i Sverige.
+- **Main Dashboard**: Our [dashboard](https://github.com/Hack23/cia/blob/master/dashboard.md) provides comprehensive analytics on US political figures and institutions including Congress, Senate, and House of Representatives.
 
 ## 🤖 AI and Data Visualization
 

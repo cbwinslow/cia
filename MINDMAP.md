@@ -38,15 +38,15 @@ This document provides a conceptual overview of the Citizen Intelligence Agency 
 mindmap
   root((Citizen<br/>Intelligence<br/>Agency))
     🏛️ Political Data Analysis
-      🏢 Parliament Monitoring
+      🏢 Congress Monitoring
         Member Profiles
         Voting Patterns
         Committee Activities
-        Document Tracking
+        Bill Tracking
       🗳️ Election Analysis
         Party Performance
-        Regional Voting Patterns
-        Electoral District Data
+        State Voting Patterns
+        Congressional District Data
         Candidate Tracking
       💰 Financial Oversight
         Budget Transparency
