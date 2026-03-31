@@ -39,3 +39,7 @@ citizen-intelligence-agency/data/
 # Temporary report files (prefer living documentation)
 *_SUMMARY.md
 *_FIXES_*.md
+
+*.key
+*.pem
+.env
